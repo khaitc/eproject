@@ -12,7 +12,7 @@
 }
 
  .anhslide{
- 	width: 80%;
+  width: 100%;
  }
 .sea{
   padding-top:18px;
@@ -20,5 +20,27 @@
 }
 .navbar-default{
   margin-bottom: 0px;
+  height: 75px;
+  background-color:rgba(93,188,210,0.3)
+}
+.carousel-caption .btn{
+  color:white;
+  background-color:#ffb400;
+  margin-right:15px;
   
+}
+.navbar-brand > img{
+  height:75px;
+  margin-top:-10px;
+}
+.navbar-nav > li{
+  font-size: 15px;
+  padding-top:15px;
+  margin-right:25px;
+}
+.navbar-fixed-top{
+  border:none;
+}
+.thumbnail{
+  border:none;
 }
