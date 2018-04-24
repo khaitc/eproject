@@ -1,0 +1,24 @@
+
+ * {
+ margin:0;
+ padding:0;
+}
+.foot li{
+  list-style: none;
+  float:left;
+  margin-right:15px;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+ .anhslide{
+ 	width: 80%;
+ }
+.sea{
+  padding-top:18px;
+  padding-left:500px;
+}
+.navbar-default{
+  margin-bottom: 0px;
+  
+}
