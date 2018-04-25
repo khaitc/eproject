@@ -21,7 +21,7 @@
 .navbar-default{
   margin-bottom: 0px;
   height: 75px;
-  background-color:rgba(93,188,210,0.3)
+  background-color:rgba(119,136,153,0.3)
 }
 .carousel-caption .btn{
   color:white;
@@ -43,4 +43,11 @@
 }
 .thumbnail{
   border:none;
+}
+
+/*CSS cua Quan*/
+
+.navbar-default .navbar-nav > li > a{
+  color: white;
+  font-weight: 600;
 }
