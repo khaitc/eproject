@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	height: 72px;
+	width: 100%;
+	background-color: white;
+	z-index: 9999;
+}
+
+#div-container{
+	height: 73px;
+}
+
+.navbar-default .navbar-toggle{
+	border: none;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+
+.navbar-toggle:hover .icon-bar{
+	background-color: #ffb400;
+}
+
+.navbar-collapse > ul > li > a{
+	line-height: 40px;
+	font-family: sans-serif;
+}
+
+.nav > li > a{
+	padding: 15px 7px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
