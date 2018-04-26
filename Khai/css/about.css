@@ -21,3 +21,29 @@
   font-weight: 600;
   
 }
+.sub-banner{
+  background-image: url(../images/sub-banner.jpg);
+  height:392px;
+}
+.over-lay{
+    background-color: rgb(37, 37, 41);
+    opacity: 0.70;
+    padding: 48px 0;
+}
+.banner{
+  padding-top: 150px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.breadcrumb{
+  background: none;
+  padding-top: 30px;
+}
+.breadcrumb a{
+  color:white;
+  
+}
+.breadcrumb > li + li::before{
+  content: "\003e";
+}
