@@ -3,24 +3,26 @@
  margin:0;
  padding:0;
 }
-body
 .navbar-default{
   margin-bottom: 0px;
   height: 75px;
-  background-color:rgba(119,136,153,0.3);
+  background-color:rgba(119,136,153,0.3)
+}
+.navbar-brand > img{
+  height:75px;
+  margin-top:-10px;
+}
+.navbar-nav > li{
+  font-size: 15px;
+  padding-top:15px;
+  margin-right:25px;
 }
 .navbar-fixed-top{
   border:none;
 }
-.navbar-brand > img{
-  margin-top:-10px;
-}
 .navbar-default .navbar-nav > li > a{
-  font-size: 14px;
-  padding:25px 6px;
-  color:white;
+  color: white;
   font-weight: 600;
-  
 }
 .sub-banner{
   background-image: url(../images/sub-banner.jpg);
@@ -31,16 +33,16 @@ body
   opacity: 1;
   text-align: center;
 }
-.over-lay{
-    background-color: rgb(37, 37, 41);
-    opacity: 0.70;
-    padding: 75px 0;
+.overlay{
+  background-color: rgb(37, 37, 41);
+  opacity: 0.70;
+  padding: 75px 0;
 }
-.banner{
-  padding-top: 150px;
+.overlay h1{
   color:white;
+  padding: 15px 0;
   text-transform: uppercase;
-  font-weight: 600;
+  
 }
 .breadcrumb{
   background: none;
@@ -54,37 +56,72 @@ body
 .breadcrumb > li + li::before{
   content: "\003e";
 }
-.top{
-  margin: 50px 0;
+.content-top h1{
+  padding-top:30px;
 }
-.send{
-  margin-top: 15px;
+.aphabet{
+  list-style: none;
+  display: inline-block;
 }
-.address{
-  margin-bottom: 10px;
-}
-.address i{
-  width: 55px;
-  font-size: 24px;
-  height: 55px;
-  line-height: 55px;
-  border-radius: 50%;
+.aphabet a{
+  text-transform: uppercase;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  margin-bottom: 50px;
+  margin-top:50px;
   text-align: center;
-  color: #333;
-  border: 1px dashed #333;
+  display: inline-block;
+  font-size: 15px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  color: #37404d;
 }
-.address-left{
-  display: table-cell;
-  vertical-align: top;
-  padding-right: 20px;
-}
-.address-right{
-  display: table-cell;
-  vertical-align: top;
-}
-.address a{
+.aphabet a:hover{
   text-decoration: none;
-  color: #5a5959;
+  background-color: orange;
+}
+.search{
+  width: 300px;
+  height:30px;
+  padding-left:10px;
+  margin-bottom:50px;
+  border:none;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  position: relative;
+} 
+.bot a{
+  color:black;
+}
+.bot i{
+  position: relative;
+  left:-30px;
+  z-index: 100000;
+}
+.thumbnail{
+  border:none;
+
+}
+.photo{
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+.photo img{
+  vertical-align: middle;
+  height:55px;
+  width:90px;
+}
+.caption{
+  padding: 0;
+  margin: 0;
+}
+.caption a{
+  text-transform: uppercase;
+  color: orange; 
+}
+.caption a:hover{
+  text-decoration: none;
+  color:black;
 }
 .footer{
   background: black;
