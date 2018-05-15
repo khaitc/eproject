@@ -103,29 +103,27 @@
 } 
 .bot a{
   color:black;
-}
-.bot i{
-  position: relative;
+    position: relative;
   left:-30px;
   z-index: 100000;
 }
+
 .thumbnail{
   border:none;
 
 }
-.photo{
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-}
-.photo img{
+
+.thumbnail img{
   vertical-align: middle;
-  height:55px;
-  width:90px;
+  /*! height:55px; */
+  /*! width:90px; */
+   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  padding: 15px ;
+  margin-bottom: 10px;
 }
 .caption{
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 .caption a{
   text-transform: uppercase;
