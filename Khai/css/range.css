@@ -51,6 +51,18 @@
   color: white;
   font-weight: 600;
 }
+@media(max-width:985px){
+  .navbar-toggle{
+    display: block;
+    float:right;
+  }
+  ul.nav {
+    display: none;
+  }
+  .navbar-header{
+    width: 100%;
+  }
+}
 .sub-banner{
   background-image: url(../images/sub-banner.jpg);
   background-size: cover;

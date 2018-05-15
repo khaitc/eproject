@@ -21,6 +21,19 @@
   font-weight: 600;
   
 }
+/*chinh sua menu*/
+@media(max-width:985px){
+  .navbar-toggle{
+    display: block;
+    float:right;
+  }
+  ul.nav {
+    display: none;
+  }
+  .navbar-header{
+    width: 100%;
+  }
+}
 .anhslide{
   width: 100%;
  }
