@@ -27,7 +27,7 @@
     display: block;
     float:right;
   }
-  ul.nav {
+  navbar-right {
     display: none;
   }
   .navbar-header{

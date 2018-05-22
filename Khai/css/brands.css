@@ -6,23 +6,20 @@
 .navbar-default{
   margin-bottom: 0px;
   height: 75px;
-  background-color:rgba(119,136,153,0.3)
-}
-.navbar-brand > img{
-  height:75px;
-  margin-top:-10px;
-}
-.navbar-nav > li{
-  font-size: 15px;
-  padding-top:15px;
-  margin-right:25px;
+  background-color:rgba(119,136,153,0.3);
 }
 .navbar-fixed-top{
   border:none;
 }
+.navbar-brand > img{
+  margin-top:-10px;
+}
 .navbar-default .navbar-nav > li > a{
-  color: white;
+  font-size: 14px;
+  padding:25px 6px;
+  color:white;
   font-weight: 600;
+  
 }
 @media(max-width:985px){
   .navbar-toggle{
@@ -45,16 +42,16 @@
   opacity: 1;
   text-align: center;
 }
-.overlay{
-  background-color: rgb(37, 37, 41);
-  opacity: 0.70;
-  padding: 75px 0;
+.over-lay{
+    background-color: rgb(37, 37, 41);
+    opacity: 0.70;
+    padding: 75px 0;
 }
-.overlay h1{
+.banner{
+  padding-top: 150px;
   color:white;
-  padding: 15px 0;
   text-transform: uppercase;
-  
+  font-weight: 600;
 }
 .breadcrumb{
   background: none;
@@ -103,7 +100,7 @@
 } 
 .bot a{
   color:black;
-    position: relative;
+  position: relative;
   left:-30px;
   z-index: 100000;
 }
