@@ -1,8 +1,5 @@
 var slideIndex = 1;
-<<<<<<< HEAD
 //alert("chan deo hieu bi sao");
-=======
->>>>>>> 1768fd487e621d49d01802821d83061f26164cb5
 showSlides(slideIndex);
 
 function plusSlides(n) {
