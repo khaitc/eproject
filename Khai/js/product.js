@@ -1,5 +1,4 @@
 var slideIndex = 1;
-alert("chan deo hieu bi sao");
 showSlides(slideIndex);
 
 function plusSlides(n) {
