@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-	<title> Car Details </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="js/product.js"></script>
-	<link rel="stylesheet" href="vendor/bootstrap.css">
- 	<link rel="stylesheet" href="css/product.css">
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Car Details </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/bootstrap.css">
+    <link rel="stylesheet" href="css/product.css">
 </head>
-<body >
+<body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="1.html"><img  src="images/logo2.png" alt="logo" class="img-responsive"></a>
+                <a class="navbar-brand" href="1.html"><img src="images/logo2.png" alt="logo" class="img-responsive"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -27,22 +26,25 @@
                     <li><a class="active" href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li>
-                        <a href="">Brands
+                        <a href="">
+                            Brands
                             <span class="caret"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="">Ranger Of Cars
+                        <a href="">
+                            Ranger Of Cars
                             <span class="caret"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="">PreOwned Cars
+                        <a href="">
+                            PreOwned Cars
                             <span class="caret"></span>
                         </a>
                     </li>
                     <li><a href="">Contact Us</a></li>
-                </ul>            
+                </ul>
             </div><!-- /.navbar-collapse -->
         </div>
     </nav> <!-- end menu -->
@@ -63,7 +65,8 @@
     </div> <!-- end sub-banner -->
     <div class="main-content">
         <div class="container">
-            <div class="row top-content"> <!-- top content -->
+            <div class="row top-content">
+                <!-- top content -->
                 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                     <div class="name">
                         <h3>Lamborghini</h3>
@@ -78,7 +81,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
-                    </div> 
+                    </div>
                 </div>
             </div> <!-- end top content -->
             <div class="row">
@@ -92,7 +95,7 @@
                         </div>
                         <div class="mySlides">
                             <img src="images/3.jpg" style="width:100%">
-                        </div>  
+                        </div>
                         <a class="prev-btn" onclick="plusSlides(-1)">&lsaquo;</a>
                         <a class="next-btn" onclick="plusSlides(1)">&rsaquo;</a>
                         <div class="images-gallery">
@@ -103,17 +106,17 @@
                                 <img class="demo cursor" src="images/2-small.jpg" style="width:100%" onclick="currentSlide(2)">
                             </div>
                             <div class="small-images">
-                                <img class="demo cursor" src="images/3-small.jpg" style="width:100%" onclick="currentSlide(3)" >
+                                <img class="demo cursor" src="images/3-small.jpg" style="width:100%" onclick="currentSlide(3)">
                             </div>
                         </div>
                     </div> <!-- end slide show -->
                     <div class="tab">
-                        <button class="tablinks active " onclick="openTab(event, 'home')">General Infomation</button>
-                        <button class="tablinks" onclick="openTab(event, 'tech')">Technical Specifications</button>
-                        <button class="tablinks" onclick="openTab(event, 'video')">Video</button>
+                        <button class="tablinks active " onclick="openTab('#product-home',this)">General Infomation</button>
+                        <button class="tablinks" onclick="openTab('#product-tech',this)">Technical Specifications</button>
+                        <button class="tablinks" onclick="openTab('#product-video',this)">Video</button>
                     </div>
 
-                    <div id="home" class="tabcontent abcd ">
+                    <div id="product-home" class="hide">
                         <h3>General Information About Car</h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt aliquam. Aliquam gravida massa at sem vulputate interdum et vel eros. Maecenas eros enim, tincidunt vel turpis vel, dapibus tempus nulla. Donec vel nulla dui. Pellentesque sed ante sed ligula hendrerit condimentum. Suspendisse rhoncus fringilla ipsum quis porta. Morbi tincidunt viverra pharetra.
 
@@ -124,7 +127,7 @@
                         Sed at leo sit amet mi bibendum aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent cursus varius odio, non faucibus dui. Nunc vehicula lectus sed velit suscipit aliquam vitae eu ipsum. adipiscing elit.
                     </div>
 
-                    <div id="tech" class="tabcontent">
+                    <div id="product-tech" class="hide">
                         <div class="technical-specifications">
                             <ul>
                                 <li>
@@ -151,17 +154,17 @@
                             </ul>
                         </div>
                     </div>
-                    <div id="video" class="tabcontent">
+                    <div id="product-video" class="hide">
                         <iframe width="750" height="auto" src="https://www.youtube.com/embed/m5_AKjDdqaU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="comments-section ">
-                        <h2 >Comments Section</h2>
+                        <h2>Comments Section</h2>
                         <ul class="comments">
                             <li>
                                 <div class="comment">
                                     <div class="comment-author">
                                         <a href="#">
-                                            <img class="img-responsive" src="images/default-avatar.jpeg"  alt="profile-01">
+                                            <img class="img-responsive" src="images/default-avatar.jpeg" alt="profile-01">
                                         </a>
                                     </div>
                                     <div class="comment-content">
@@ -280,7 +283,7 @@
                 </div> <!-- end main content left -->
                 <div class=" col-md-4 col-lg-4 hidden-xs hidden-sm main-content-right">
                     <div class="right-infomation">
-                        <h2 >Specifications</h2>
+                        <h2>Specifications</h2>
                         <ul>
                             <li>
                                 <span>Make</span>Ferrari
@@ -321,7 +324,7 @@
                         </ul>
                     </div>
                     <div class="helping-Center ">
-                        <h2 >Helping Center</h2>
+                        <h2>Helping Center</h2>
                         <ul class="contact-link">
                             <li>
                                 <i class="fa fa-map-marker"></i>
@@ -342,7 +345,7 @@
                         </ul>
                     </div>
                     <div class="social-box clearfix ">
-                        <h2 >Social Media</h2>
+                        <h2>Social Media</h2>
                         <ul class="social-list-2">
                             <li>
                                 <a href="#" class="facebook-bg">
@@ -399,7 +402,7 @@
                                 <i class="fa fa-phone"></i>
                                 Phone: <a href="tel:+55-417-634-7071">+84 XXX 812 912</a>
                             </li>
-                             <li>
+                            <li>
                                 <i class="fa fa-fax"></i>
                                 Fax: +84 4XX-634-7071
                             </li>
@@ -417,16 +420,16 @@
                             <li>
                                 <a href="1.html">About Us</a>
                             </li>
-                             <li>
+                            <li>
                                 <a href="1.html">Car Listing</a>
                             </li>
                             <li>
                                 <a href="1.html">Car Grid</a>
                             </li>
-                             <li>
+                            <li>
                                 <a href="1.html">Contact Us</a>
                             </li>
-                             <li>
+                            <li>
                                 <a href="1.html">Blog</a>
                             </li>
                             <li>
@@ -506,14 +509,16 @@
                 </div> <!-- end Recent Cars -->
             </div>
         </div>
-    </div>
-    <hr>  <!-- end Footer --> 
-    <div class="copy-right">
-        <div class="container text-center">
-            <p>&copy;  2018 Designed and edited by KhaiTC</p>
+        <hr>  <!-- end Footer -->
+        <div class="copy-right">
+            <div class="container text-center">
+                <p>&copy;  2018 Designed and edited by KhaiTC</p>
+            </div>
         </div>
-    </div> 
 
-</div>
+    </div>
+
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
 </body>
 </html>
