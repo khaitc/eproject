@@ -1,5 +1,4 @@
 var slideIndex = 1;
-//alert("chan deo hieu bi sao");
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -27,16 +26,16 @@ function showSlides(n) {
     dots[index].className += " active";
 }
 
-if ($("#product-home").hasClass('hide')) {
-    $("#product-home").removeClass('hide');
-}
-function openTab(id, t) {
-    $(document).find('[class^=tablinks]').each(function (index, value) {
-        $(this).removeClass('active');
-    });
-    $(t).addClass('active');
-    $(document).find('[id^=product]').each(function (index, value) {
-        $(this).addClass('hide');
-    });
-    $(id).removeClass('hide');
-}
+// if ($("#product-home").hasClass('hide')) {
+//     $("#product-home").removeClass('hide');
+// }
+// function openTab(id, t) {
+//     $(document).find('[class^=tablinks]').each(function (index, value) {
+//         $(this).removeClass('active');
+//     });
+//     $(t).addClass('active');
+//     $(document).find('[id^=product]').each(function (index, value) {
+//         $(this).addClass('hide');
+//     });
+//     $(id).removeClass('hide');
+// }

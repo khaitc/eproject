@@ -110,52 +110,63 @@
                             </div>
                         </div>
                     </div> <!-- end slide show -->
-                    <div class="tab">
-                        <button class="tablinks active " onclick="openTab('#product-home',this)">General Infomation</button>
-                        <button class="tablinks" onclick="openTab('#product-tech',this)">Technical Specifications</button>
-                        <button class="tablinks" onclick="openTab('#product-video',this)">Video</button>
-                    </div>
+                    <div class='tab-panel' role="tabpanel">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">General Information</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Technical Specifications</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#video" aria-controls="video" role="tab" data-toggle="tab">Video</a>
+                            </li>
+                        </ul>
+                    
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="home">
+                                <h3>General Information About Car</h3>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt aliquam. Aliquam gravida massa at sem vulputate interdum et vel eros. Maecenas eros enim, tincidunt vel turpis vel, dapibus tempus nulla. Donec vel nulla dui. Pellentesque sed ante sed ligula hendrerit condimentum. Suspendisse rhoncus fringilla ipsum quis porta. Morbi tincidunt viverra pharetra.
 
-                    <div id="product-home" class="hide">
-                        <h3>General Information About Car</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt aliquam. Aliquam gravida massa at sem vulputate interdum et vel eros. Maecenas eros enim, tincidunt vel turpis vel, dapibus tempus nulla. Donec vel nulla dui. Pellentesque sed ante sed ligula hendrerit condimentum. Suspendisse rhoncus fringilla ipsum quis porta. Morbi tincidunt viverra pharetra.
+                                Vestibulum vel mauris et odio lobortis laoreet eget eu magna. Proin mauris erat, luctus at nulla ut, lobortis mattis magna. Morbi a arcu lacus. Maecenas tristique velit vitae nisi consectetur, in mattis diam sodales. Mauris sagittis sem mattis justo bibendum, a eleifend dolor facilisis. Mauris nec pharetra tortor, ac aliquam felis. Nunc pretium erat sed quam consectetur fringilla.
 
-                        Vestibulum vel mauris et odio lobortis laoreet eget eu magna. Proin mauris erat, luctus at nulla ut, lobortis mattis magna. Morbi a arcu lacus. Maecenas tristique velit vitae nisi consectetur, in mattis diam sodales. Mauris sagittis sem mattis justo bibendum, a eleifend dolor facilisis. Mauris nec pharetra tortor, ac aliquam felis. Nunc pretium erat sed quam consectetur fringilla.
+                                Aliquam ultricies nunc porta metus interdum mollis. Donec porttitor libero augue, vehicula tincidunt lectus placerat a. Sed tincidunt dolor non sem dictum dignissim. Nulla vulputate orci felis, ac ornare purus ultricies a. Fusce euismod magna orci, sit amet aliquam turpis dignissim ac. In at tortor at ligula pharetra sollicitudin. Sed tincidunt, purus eget laoreet elementum, felis est pharetra ante, tincidunt feugiat libero enim sed risus.
 
-                        Aliquam ultricies nunc porta metus interdum mollis. Donec porttitor libero augue, vehicula tincidunt lectus placerat a. Sed tincidunt dolor non sem dictum dignissim. Nulla vulputate orci felis, ac ornare purus ultricies a. Fusce euismod magna orci, sit amet aliquam turpis dignissim ac. In at tortor at ligula pharetra sollicitudin. Sed tincidunt, purus eget laoreet elementum, felis est pharetra ante, tincidunt feugiat libero enim sed risus.
-
-                        Sed at leo sit amet mi bibendum aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent cursus varius odio, non faucibus dui. Nunc vehicula lectus sed velit suscipit aliquam vitae eu ipsum. adipiscing elit.
-                    </div>
-
-                    <div id="product-tech" class="hide">
-                        <div class="technical-specifications">
-                            <ul>
-                                <li>
-                                    Layout / number of cylinders<span>6</span>
-                                </li>
-                                <li>
-                                    Displacement<span>3.4 l</span>
-                                </li>
-                                <li>
-                                    Engine Layout<span>Mid-engine</span>
-                                </li>
-                                <li>
-                                    Horespower <span>315 hp</span>
-                                </li>
-                                <li>
-                                    @ rpm <span>6,700 rpm</span>
-                                </li>
-                                <li>
-                                    Torque <span>266 lb.-ft.</span>
-                                </li>
-                                <li>
-                                    Compression ratio <span>12.5 : 1</span>
-                                </li>
-                            </ul>
+                                Sed at leo sit amet mi bibendum aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent cursus varius odio, non faucibus dui. Nunc vehicula lectus sed velit suscipit aliquam vitae eu ipsum. adipiscing elit.
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab">
+                                <div class="technical-specifications">
+                                    <ul>
+                                        <li>
+                                            Layout / number of cylinders<span>6</span>
+                                        </li>
+                                        <li>
+                                            Displacement<span>3.4 l</span>
+                                        </li>
+                                        <li>
+                                            Engine Layout<span>Mid-engine</span>
+                                        </li>
+                                        <li>
+                                            Horespower <span>315 hp</span>
+                                        </li>
+                                        <li>
+                                            @ rpm <span>6,700 rpm</span>
+                                        </li>
+                                        <li>
+                                            Torque <span>266 lb.-ft.</span>
+                                        </li>
+                                        <li>
+                                            Compression ratio <span>12.5 : 1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="video">
+                                <iframe width="750" height="auto" src="https://www.youtube.com/embed/m5_AKjDdqaU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
                         </div>
-                    </div>
-                    <div id="product-video" class="hide">
-                        <iframe width="750" height="auto" src="https://www.youtube.com/embed/m5_AKjDdqaU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="comments-section ">
                         <h2>Comments Section</h2>
