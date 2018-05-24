@@ -8,48 +8,102 @@
     <script type="text/javascript" src="vendor/bootstrap.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <link rel="stylesheet" href="vendor/bootstrap.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href=" css/Preo.css">
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top mainmenu" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header navbarheader">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="1.html"><img  src="images/logo2.png" alt="logo" class="img-reponsive"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo" class="img-responsive"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                
-              
-                <ul class="nav navbar-nav navbar-right">
-                        <li><a class="active" href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li>
-                            <a href="">Brands
-                                <span class="caret"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">Ranger Of Cars
-                                <span class="caret"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">PreOwned Cars
-                                <span class="caret"></span>
-                            </a>
-                        </li>
-                        <li><a href="">Contact Us</a></li>
-                    </ul>            
-                </div><!-- /.navbar-collapse -->
-            </div>
+                <ul class="nav navbar-nav navbar-right dropdown">
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="brands-2.html" class="dropdown-toggle" data-toggle="dropdown">Brands</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Toyota</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Camry</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Lamborghini</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Lamborghini Huracan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Nissan</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Nissan GTR 2017</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Honda</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Honda Civic 2018</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">BMW</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">BMW Black Zero M</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="range-car-list.html">Ranger Of Cars</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Small Car</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Sedan</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Van</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">JEEPs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Preo.html">PreOwned Cars</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
     </nav> <!-- end menu -->
     <div class="sub-banner">
         <div class="over-lay">
@@ -57,191 +111,781 @@
                 <h1 class="banner">Preownend cars</h1>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Preownend cars</a>
+                        <a href="Preo.html">Preownend cars</a>
                     </li>
                 </ol>
             </div>
         </div>
-    </div> <!-- end sub-banner -->
-    <div class="main-content">
-    	<div class="container">
-    		<div class="row bot">
-    			<div class="content-top text-center">
-                      <div class="row bot">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <input type="text" class="search" placeholder="Search"> <a href="#"><i class="fa fa-search"></i></a>
+    </div> 
+    <!-- end sub-banner -->
+    <!-- content preowned car -->
+    <div class="car-grid content-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <!-- Block heading start -->
+                    <div class="block-heading">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-5 col-md-5 col-lg-6">
+                                <h4>
+                                    <span class="heading-icon">
+                                        <i class="fa fa-th-large"></i>
+                                    </span>
+                                    <span class="hidden-xs">PreOwned Cars</span>
+                                </h4>
+                            </div>
+                            <div class="col-xs-10 col-sm-7 col-md-7 col-lg-6 cod-pad">
+                                <div class="sorting-options">
+                                    <select class="sorting">
+                                        <option>Price: High to low</option>
+                                        <option>Price: Low to high</option>
+                                        <option>Sells: High to low</option>
+                                        <option>Sells: Low to high</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <!-- /Block heading end -->
+                    <!-- Car grid start -->
                     <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail ">
-                    <img src="images/4.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style="color:red">AUDI</a></h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles: Audi A8 Sedan</b></i></div>
-                            <div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                            <div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                            <div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                            
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-1.jpg" alt="car-1">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Fiat Punto Red</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Fiat Punto Red</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-2.jpg" alt="car-2">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>2016 Jaguar</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">2016 Jaguar</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-3.jpg" alt="car-3">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Ferrari Red Car</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Ferrari Red Car</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-4.jpg" alt="car-4">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Back BMW M Zero</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Back BMW M Zero</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-5.jpg" alt="car-5">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>McLaren 650S</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">McLaren 650S</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-6.jpg" alt="car-6">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Audi Q7</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Audi Q7</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-7.jpg" alt="car-7">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Toyota Corolla</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Toyota Corolla</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-8.jpg" alt="car-8">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Lamboghini 2016</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Lamboghini 2016</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <!-- Car box start -->
+                            <div class="thumbnail car-box clearfix">
+                                <div class="car-box-thumbnail">
+                                    <a href="product.html">
+                                        <img src="images/Range of Cars/car-9.jpg" alt="car-9">
+                                    </a>
+                                    <div class="listing-for">
+                                        <span class="for">For Sale</span>
+                                    </div>
+                                    <div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Lamboghini Huracan</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
+                                </div>
+                                <!-- detail -->
+                                <div class="caption detail">
+                                    <!-- Header -->
+                                    <header class="clearfix">
+                                        <h5 class="title">
+                                            <a href="product.html">Lamboghini Huracan</a>
+                                        </h5>
+                                        <ul class="custom-list">
+                                            <li>
+                                                <a href="#">Old Car</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Automatic</a> / 
+                                            </li>
+                                            <li>
+                                                <a href="#">Sports</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <!-- Paragraph -->
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    </p>
+                                    <!-- Facilities List -->
+                                    <div class="facilities-area">
+                                        <ul class="facilities-list clearfix">
+                                            <li>
+                                                <i class="fas fa-gas-pump"></i>
+                                                <span>Gasoline</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-square-right"></i>
+                                                <span>Automatic</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-car"></i>
+                                                <span>Preowned</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-road"></i>
+                                                <span>12000</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-cogs"></i>
+                                                <span>5 Gears</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-calendar"></i>
+                                                <span>2017</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Car box end -->
+                        </div>
                     </div>
+                    <!-- /Car grid end -->
+                    <!-- Page navigation start -->
+                    <nav>
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" title="Previous">
+                                    <span><<</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Next">
+                                    <span>>></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /page navvigation end -->
                 </div>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/5.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style="color:#00F">BMW</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles: BMW 428i Gran Coupe</b></i></div>
-                           	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                              <div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                          	<div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                            
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/6.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style=" color:#FF0" >FERRARI</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles:Ferrari 488 GTB</b></i></div>
-                           	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                           	  <div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                          	<div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                           
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/7.jpg" alt="sp1">
-                    <div class="caption">
-                       	 <h3 style="color:#F00" >BUGATTI</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles:Bugatti Veyron 16.4</b></i></div>
-                           	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                            <div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                            <div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                           
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/8.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3  style="color:#CCC">LEXUS</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles:Lexus ES300h Sedan</b></i></div>
-                           	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                            <div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                            <div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                        
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/9.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style="color:#3C0" >LAMBORGHINI</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles:Lamborghini Aventador</b></i></div>
-                          	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                            <div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                          	<div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                           
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/10.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style="color:#CCC" >MERCEDES</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles:Mercedes-Benz A - Class</b></i></div>
-                        	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                          	<div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                          	<div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                           
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/11.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style=" color:#999">PORSCHE</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles:Porsche Macan</b></i></div>
-                           	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                           	<div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                           	<div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                           
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div><div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="thumbnail">
-                    <img src="images/2.jpg" alt="sp1">
-                    <div class="caption">
-                        	<h3 style="color:#00F" >RANGER ROVER</h3>
-                        <p>
-                        	<div><i class="fa fa-map-marker"> <b>Vehicles: Range Rover Sport </b></i></div>
-                           	<div><i class="fa fa-car"> <b>Status:Used Car</b> </i></div>
-                          	<div><i class="fa fa-road"></i> <b>Distance traveled:2000km</b></div>
-                          	<div><i class="fa fa-cogs"></i> <b> Drive:FWD</b></div>
-                       
-
-
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>  
         </div>
     </div>
-    <!-- footer -->
+    <!-- /Car grid end -->
+    <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -249,10 +893,13 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="footer-item clearfix">
                         <h2 class="title">Contact Us</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printing and typesetting
+                        </p>
                         <ul class="personal-info">
                             <li>
                                 <i class="fa fa-map-marker"></i>
-                                Address: TP Cao Bằng Tỉnh Cao Bằng Việt Nam
+                                Address: 19, Nguyễn Trãi, Phường Khương Trung, Quận Thanh Xuân, Hà Nội
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i>
@@ -262,7 +909,7 @@
                                 <i class="fa fa-phone"></i>
                                 Phone: <a href="tel:+55-417-634-7071">+84 XXX 812 912</a>
                             </li>
-                             <li>
+                            <li>
                                 <i class="fa fa-fax"></i>
                                 Fax: +84 4XX-634-7071
                             </li>
@@ -275,25 +922,22 @@
                         <h2 class="title">Links</h2>
                         <ul class="links">
                             <li>
-                                <a href="1.html">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="1.html">About Us</a>
-                            </li>
-                             <li>
-                                <a href="1.html">Car Listing</a>
+                                <a href="aboutus.html">About Us</a>
                             </li>
                             <li>
-                                <a href="1.html">Car Grid</a>
-                            </li>
-                             <li>
-                                <a href="1.html">Contact Us</a>
-                            </li>
-                             <li>
-                                <a href="1.html">Blog</a>
+                                <a href="range-car-list.html">Car Listing</a>
                             </li>
                             <li>
-                                <a href="1.html">Car Details</a>
+                                <a href="range-car-grid.html">Car Grid</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Car Details</a>
                             </li>
                         </ul>
                     </div>
@@ -305,7 +949,6 @@
                         <div class="tags">
                             <a href="#">Cars</a>
                             <a href="#">Cars Dealer</a>
-                            <a href="#">Car Template</a>
                             <a href="#">Dealer</a>
                             <a href="#">Auto Car</a>
                             <a href="#">Automobile</a>
@@ -314,8 +957,6 @@
                             <a href="#">Car Selling</a>
                             <a href="#">Car Dealing</a>
                             <a href="#">Car Website</a>
-                            <a href="#">Car Template</a>
-                            <a href="#">HTML Template</a>
                         </div>
                     </div>
                 </div> <!-- end Tags -->
@@ -325,42 +966,42 @@
                         <h2 class="title">Recent Cars</h2>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="#" alt="recent-1">
+                                <a href="product.html">
+                                    <img class="media-object" src="images/footer-car-3.jpg" alt="recent-1">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h3>
-                                    <a href="car-details.html">Nissan Micra Gen5</a>
-                                </h3>
+                                <h4>
+                                    <a href="product.html">Nissan Micra Gen5</a>
+                                </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$36.000</p>
                             </div>
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="#" alt="recent-2">
+                                <a href="product.html">
+                                    <img class="media-object" src="images/footer-car-2.jpg" alt="recent-2">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h3>
-                                    <a href="car-details.html">Toyota Prius</a>
-                                </h3>
+                                <h4>
+                                    <a href="product.html">Toyota Prius</a>
+                                </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$28.490</p>
                             </div>
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="#" alt="recent-3">
+                                <a href="product.html">
+                                    <img class="media-object" src="images/footer-car-1.jpg" alt="recent-3">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h3>
-                                    <a href="car-details.html">Fiat Punto Red</a>
-                                </h3>
+                                <h4>
+                                    <a href="product.html">Fiat Punto Red</a>
+                                </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$49.000</p>
                             </div>
@@ -369,12 +1010,12 @@
                 </div> <!-- end Recent Cars -->
             </div>
         </div>
-    </div>
-    <hr>  <!-- end Footer --> 
-    <div class="copy-right">
-        <div class="container text-center">
-            <p>&copy;  2018 Designed and edited by KhaiTC</p>
+        <hr>  <!-- end Footer -->
+        <div class="copy-right">
+            <div class="container text-center">
+                <p>&copy;  2018 Designed and edited by CARVAN Team</p>
+            </div>
         </div>
-    </div> 
+    </div>
 </body>
 </html>

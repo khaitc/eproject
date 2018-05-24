@@ -11,45 +11,108 @@
 </head>
 <body >
     <!-- menu -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top mainmenu" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header navbarheader">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="1.html"><img  src="images/logo2.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo" class="img-responsive"></a>
             </div>
-    
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                
-              
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Brands</a></li>
-                    <li><a href="#">Range Of Cars</a></li>
-                    <li><a href="#">PreOwned Car</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                <ul class="nav navbar-nav navbar-right dropdown">
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="brands-2.html" class="dropdown-toggle" data-toggle="dropdown">Brands</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Toyota</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Camry</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Lamborghini</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Lamborghini Huracan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Nissan</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Nissan GTR 2017</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Honda</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Honda Civic 2018</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">BMW</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">BMW Black Zero M</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="range-car-list.html">Ranger Of Cars</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Small Car</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Sedan</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Van</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">JEEPs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Preo.html">PreOwned Cars</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
                 </ul>
-            </div>
-            
-            <!-- /.navbar-collapse -->
+            </div><!-- /.navbar-collapse -->
         </div>
     </nav> <!-- end menu -->
-   <div class="sub-banner">
+    <div class="sub-banner">
         <div class="overlay text-center">
             <h1 >Range of Cars</h1>
             <ol class="breadcrumb">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Ranger of Cars</a>
+                    <a href="range-car-grid.html">Ranger of Cars</a>
                 </li>
             </ol>
         </div>
@@ -79,10 +142,10 @@
 										<option>Sells: High to low</option>
 										<option>Sells: Low to high</option>
 									</select>
-									<a href="#" class="change-view-btn">
+									<a href="range-car-list.html" class="change-view-btn">
 										<i class="fa fa-th-list"></i>
 									</a>
-									<a href="#" class="change-view-btn active-view-btn">
+									<a href="range-car-grid.html" class="change-view-btn active-view-btn">
 										<i class="fa fa-th-large"></i>
 									</a>
 								</div>
@@ -96,19 +159,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-1.jpg" alt="car-1">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Fiat Punto Red</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Fiat Punto Red</a>
+											<a href="product.html">Fiat Punto Red</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -138,8 +211,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -163,19 +236,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-2.jpg" alt="car-2">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>2016 Jaguar</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">2016 Jaguar</a>
+											<a href="product.html">2016 Jaguar</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -205,8 +288,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -230,19 +313,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-3.jpg" alt="car-3">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Ferrari Red Car</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Ferrari Red Car</a>
+											<a href="product.html">Ferrari Red Car</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -272,8 +365,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -297,19 +390,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-4.jpg" alt="car-4">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Back BMW M Zero</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Back BMW M Zero</a>
+											<a href="product.html">Back BMW M Zero</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -339,8 +442,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -364,19 +467,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-5.jpg" alt="car-5">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>McLaren 650S</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">McLaren 650S</a>
+											<a href="product.html">McLaren 650S</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -406,8 +519,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -431,19 +544,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-6.jpg" alt="car-6">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Audi Q7</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Audi Q7</a>
+											<a href="product.html">Audi Q7</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -473,8 +596,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -498,19 +621,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-7.jpg" alt="car-7">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Toyota Corolla</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Toyota Corolla</a>
+											<a href="product.html">Toyota Corolla</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -540,8 +673,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -565,19 +698,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-8.jpg" alt="car-8">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Lamboghini 2016</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Lamboghini 2016</a>
+											<a href="product.html">Lamboghini 2016</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -607,8 +750,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -632,19 +775,29 @@
 							<!-- Car box start -->
 							<div class="thumbnail car-box clearfix">
 								<div class="car-box-thumbnail">
-									<a href="#">
+									<a href="product.html">
 										<img src="images/Range of Cars/car-9.jpg" alt="car-9">
 									</a>
 									<div class="listing-for">
 										<span class="for">For Sale</span>
 									</div>
+									<div class="listing-price">
+                                        <span class="del">
+                                            <del>$1250</del>
+                                        </span><br>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="carbox-overlap-wrapper">
+                                        <a href="product.html"><h2>Lamboghini Huracan</h2></a>
+                                        <h4>$54.000</h4>
+                                    </div>
 								</div>
 								<!-- detail -->
 								<div class="caption detail">
 									<!-- Header -->
 									<header class="clearfix">
 										<h5 class="title">
-											<a href="#">Lamboghini Huracan</a>
+											<a href="product.html">Lamboghini Huracan</a>
 										</h5>
 										<ul class="custom-list">
 											<li>
@@ -674,8 +827,8 @@
 												<span>Automatic</span>
 											</li>
 											<li>
-												<i class="fas fa-road"></i>
-												<span>12000</span>
+												<i class="fas fa-car"></i>
+												<span>Brand new</span>
 											</li>
 											<li>
 												<i class="fas fa-flag-checkered"></i>
@@ -773,25 +926,22 @@
                         <h2 class="title">Links</h2>
                         <ul class="links">
                             <li>
-                                <a href="1.html">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="1.html">About Us</a>
+                                <a href="aboutus.html">About Us</a>
                             </li>
                              <li>
-                                <a href="1.html">Car Listing</a>
+                                <a href="range-car-list.html">Car Listing</a>
                             </li>
                             <li>
-                                <a href="1.html">Car Grid</a>
+                                <a href="range-car-grid.html">Car Grid</a>
                             </li>
                              <li>
-                                <a href="1.html">Contact Us</a>
-                            </li>
-                             <li>
-                                <a href="1.html">Blog</a>
+                                <a href="contact.html">Contact Us</a>
                             </li>
                             <li>
-                                <a href="1.html">Car Details</a>
+                                <a href="product.html">Car Details</a>
                             </li>
                         </ul>
                     </div>
@@ -822,13 +972,13 @@
                         <h2 class="title">Recent Cars</h2>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="product.html">
                                     <img class="media-object" src="images/footer-car-3.jpg" alt="recent-1">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <h4>
-                                    <a href="car-details.html">Nissan Micra Gen5</a>
+                                    <a href="product.html">Nissan Micra Gen5</a>
                                 </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$36.000</p>
@@ -836,13 +986,13 @@
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="product.html">
                                     <img class="media-object" src="images/footer-car-2.jpg" alt="recent-2">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <h4>
-                                    <a href="car-details.html">Toyota Prius</a>
+                                    <a href="product.html">Toyota Prius</a>
                                 </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$28.490</p>
@@ -850,13 +1000,13 @@
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="product.html">
                                     <img class="media-object" src="images/footer-car-1.jpg" alt="recent-3">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <h4>
-                                    <a href="car-details.html">Fiat Punto Red</a>
+                                    <a href="product.html">Fiat Punto Red</a>
                                 </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$49.000</p>

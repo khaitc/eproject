@@ -91,3 +91,120 @@
   border-radius: 2px;
   text-decoration: none;
 }
+
+
+/* dropdown */
+
+.nav > li {
+    position: relative;
+    display: block;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.main-header .navbar-default .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 30px 18px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #5a5959;
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 12px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #5a5959;
+    font-size: 13px;
+    white-space: nowrap;
+    border-left: solid 5px transparent;
+    background: #fbfbfb;
+    cursor: pointer !important;
+    outline: none;
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+/*  */
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 12px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #5a5959;
+    font-size: 13px;
+    white-space: nowrap;
+    border-left: solid 5px transparent;
+    background: #fbfbfb;
+    cursor: pointer !important;
+    outline: none;
+}
+
+.dropdown-menu > li:last-child > a {
+    border-bottom: none;
+}
+
+.dropdown-menu .open > a, .dropdown-menu .open > a:focus, .dropdown-menu .open > a:hover {
+    background-color: white;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+.open > .dropdown-menu {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+}
+
+.caret-up {
+    width: 0;
+    height: 0;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #5a5959;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: transparent;
+}

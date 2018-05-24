@@ -12,40 +12,96 @@
     <link rel="stylesheet" href="css/fontawesome-all.css">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-top mainmenu" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header navbarheader">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="1.html"><img  src="images/logo2.png" alt="logo" class="img-reponsive"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo" class="img-responsive"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
+                <ul class="nav navbar-nav navbar-right dropdown">
                     <li>
-                        <a href="">Brands
-                            <span class="caret"></span>
-                        </a>
+                        <a class="active" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="">Ranger Of Cars
-                            <span class="caret"></span>
-                        </a>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="brands-2.html" class="dropdown-toggle" data-toggle="dropdown">Brands</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Toyota</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Camry</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Lamborghini</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Lamborghini Huracan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Nissan</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Nissan GTR 2017</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Honda</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Honda Civic 2018</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">BMW</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">BMW Black Zero M</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="">PreOwned Cars
-                            <span class="caret"></span>
-                        </a>
+                        <a href="range-car-list.html">Ranger Of Cars</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Small Car</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Sedan</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Van</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">JEEPs</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>            
+                    <li>
+                        <a href="Preo.html">PreOwned Cars</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
             </div><!-- /.navbar-collapse -->
         </div>
     </nav> <!-- end menu -->
@@ -55,10 +111,10 @@
 				<h1 class="banner">Contact us</h1>
 				<ol class="breadcrumb">
 					<li>
-						<a href="#">Home</a>
+						<a href="index.html">Home</a>
 					</li>
 					<li>
-						<a href="#">Contact us</a>
+						<a href="contact.html">Contact us</a>
 					</li>
 				</ol>
 			</div>
@@ -99,7 +155,7 @@
 								<textarea name="textarea" id="textarea" class="form-control"></textarea>
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-								<button class="btn-default send">Send Message</button>
+								<button class="btn-default send">Send</button>
 							</div>
 							
 						 </form>	
@@ -137,14 +193,21 @@
                         <div class="address-right">
                             <h4>Email Address</h4>
                             <p>
-                                <a href="mailto:Khaitc.michn@gmail.com">Khaitc.michn@gmail.com</a>
+                                <a href="mailto:Khaitc.michn@gmail.com">info@carvan.com</a>
                             </p>
                         </div>
                     </div>
-            	</div> <!-- end Address -->
-	        </div> <!-- end main contact -->	
+            	</div> 
+                <!-- end Address -->
+	        </div> 
+            <!-- end main contact -->	
 		</div>	
-	</div> <!-- end main content -->
+	</div> 
+    <!-- end main content -->
+    <!-- Google Map -->
+    <div class="bando">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.783867244793!2d105.81713808378638!3d21.001299170307902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac84f942e613%3A0x9e625c766729230b!2sFafim+Cinema!5e0!3m2!1svi!2s!4v1524543182488" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 	<!-- footer -->
 	<div class="footer">
         <div class="container">
@@ -159,7 +222,7 @@
                         <ul class="personal-info">
                             <li>
                                 <i class="fa fa-map-marker"></i>
-                                Address: 19 Nguyễn Trãi , Khương Trung Thanh Xuân Hà Nội
+                                Address: 19, Nguyễn Trãi, Phường Khương Trung, Quận Thanh Xuân, Hà Nội
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i>
@@ -182,25 +245,22 @@
                         <h2 class="title">Links</h2>
                         <ul class="links">
                             <li>
-                                <a href="1.html">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="1.html">About Us</a>
+                                <a href="aboutus.html">About Us</a>
                             </li>
                              <li>
-                                <a href="1.html">Car Listing</a>
+                                <a href="range-car-list.html">Car Listing</a>
                             </li>
                             <li>
-                                <a href="1.html">Car Grid</a>
+                                <a href="range-car-grid.html">Car Grid</a>
                             </li>
                              <li>
-                                <a href="1.html">Contact Us</a>
-                            </li>
-                             <li>
-                                <a href="1.html">Blog</a>
+                                <a href="contact.html">Contact Us</a>
                             </li>
                             <li>
-                                <a href="1.html">Car Details</a>
+                                <a href="product.html">Car Details</a>
                             </li>
                         </ul>
                     </div>
@@ -229,13 +289,13 @@
                         <h2 class="title">Recent Cars</h2>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="product.html">
                                     <img class="media-object" src="images/footer-car-3.jpg" alt="recent-1">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <h4>
-                                    <a href="car-details.html">Nissan Micra Gen5</a>
+                                    <a href="product.html">Nissan Micra Gen5</a>
                                 </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$36.000</p>
@@ -243,13 +303,13 @@
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="product.html">
                                     <img class="media-object" src="images/footer-car-2.jpg" alt="recent-2">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <h4>
-                                    <a href="car-details.html">Toyota Prius</a>
+                                    <a href="product.html">Toyota Prius</a>
                                 </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$28.490</p>
@@ -257,13 +317,13 @@
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
+                                <a href="product.html">
                                     <img class="media-object" src="images/footer-car-1.jpg" alt="recent-3">
                                 </a>
                             </div>
                             <div class="media-body">
                                 <h4>
-                                    <a href="car-details.html">Fiat Punto Red</a>
+                                    <a href="product.html">Fiat Punto Red</a>
                                 </h4>
                                 <span>  Apr 25, 2018</span>
                                 <p>$49.000</p>

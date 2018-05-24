@@ -12,58 +12,6 @@
   padding-bottom: 15px;
 }
 
- .anhslide{
-  width: 100%;
- }
-.sea{
-  padding-top:18px;
-  padding-left:500px;
-}
-.navbar-default{
-  margin-bottom: 0px;
-  height: 75px;
-  background-color:rgba(119,136,153,0.3)
-}
-.carousel-caption .btn{
-  color:white;
-  background-color:#ffb400;
-  margin-right:15px;
-  
-}
-.navbar-brand > img{
-  height:75px;
-  margin-top:-10px;
-}
-.navbar-nav > li{
-  font-size: 15px;
-  padding-top:15px;
-  margin-right:25px;
-}
-.navbar-fixed-top{
-  border:none;
-}
-.thumbnail{
-  border:none;
-}
-
-/*CSS cua Quan*/
-
-.navbar-default .navbar-nav > li > a{
-  color: white;
-  font-weight: 600;
-}
-@media(max-width:985px){
-  .navbar-toggle{
-    display: block;
-    float:right;
-  }
-  ul.nav {
-    display: none;
-  }
-  .navbar-header{
-    width: 100%;
-  }
-}
 .sub-banner{
   background-image: url(../images/sub-banner.jpg);
   background-size: cover;
@@ -97,52 +45,7 @@
 .breadcrumb > li + li::before{
   content: "\003e";
 }
-.reset{
-  display:table;
-  border: none;
-  padding: 0px 10px; 
-  margin-top: 10px;
-  border-radius: 10px;
-  background-color: #58595b;
-  color: white;
-  text-transform: uppercase;
-  margin-bottom:15px;
-}
-.reset i{
-  padding: 0 10px;
-}
-.content-filter{
-  list-style: none;
-  display: table;
-  background-color:#f8f8f8;
-}
-.collumn-filter{
-  border-top:1px solid #e5e5e5e5;
-  border-left:1px solid #e5e5e5e5;
-  border-bottom:1px solid #e5e5e5e5;
-  display: table-cell;
-}
-.collumn-filter:last-child{
-  border-right:1px solid #e5e5e5e5;
-}
-.checkbox li{
-  padding:10px 20px 10px 20px;
-}
-.brand{
-  margin-bottom: 15px;
-}
-.checkbox{
-  display: table;
-  list-style: none;
-  padding: 15px ;
-}
-.checkbox p{
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 20px;
-  color: black;
-  padding-left:15px;
-}
+
 .footer{
   background: #111;
   color: #7c7e83;
@@ -151,6 +54,7 @@
 }
 .title{
   padding: 30px 0px;
+  border-bottom: solid 1px #3a3a3a;
   color: #c5c5c5;
   letter-spacing: 1px;
   font-weight: 600;
@@ -295,6 +199,92 @@
   font-size: 10px;
 }
 
+
+.listing-price {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #FFF;
+  padding: 6px 20px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.9s ease-in-out;
+}
+
+.listing-price .del {
+  font-size: 11px;
+}
+
+.listing-price span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.car-list-box-2 .carbox-overlap-wrapper {
+  padding: 130px 25px 25px;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+  text-align: center;
+  color: #FFF;
+  left: 0;
+  top: 0;
+}
+
+/* add at 24/5 */
+.car-box-thumbnail:hover .is-featured,
+.car-box-thumbnail:hover .listing-for,
+.car-box-thumbnail:hover .listing-price {
+
+}
+
+
+.carbox-overlap-wrapper {
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+  text-align: center;
+  color: #FFF;
+  padding: 60px 25px 25px;
+  left: 0;
+  top: 0;
+}
+
+.car-list-box-2 .carbox-overlap-wrapper {
+  padding: 130px 25px 25px;
+}
+
+.car-box-thumbnail:hover .carbox-overlap-wrapper {
+  visibility: visible;
+  top: 0;
+  cursor: pointer;
+  transition: visibility 2s ease-out;
+}
+/* end add 24/5 */
+
+.carbox-overlap-wrapper h2 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Myriad Pro;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffb400;
+}
+
+.carbox-overlap-wrapper h4 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Myriad Pro;
+  line-height: 26px;
+}
+
 .car-box .detail {
   padding: 20px 20px 5px;
   background: #fff;
@@ -402,3 +392,171 @@
   background: #ffb400;
   border-color: #ffb400;
 }
+
+
+/*  */
+
+
+.navbarheader{
+  height: 72px;
+}
+
+.navbar-default{
+  margin-bottom: 0px;
+  height: 75px;
+  background-color:rgba(119,136,153,0.3);
+}
+.navbar-fixed-top{
+  border:none;
+}
+.navbar-brand  img{
+  margin-top:-10px;
+}
+ul.nav.navbar-nav.navbar-right{
+  margin-top: 0px;
+}
+.navbar-default .navbar-nav > li > a{
+  color:white;
+  border-bottom: none;
+  background: black;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: black;
+  background: white;
+}
+@media (min-width: 768px){
+  .navbar-default .navbar-nav > li > a{
+    font-size: 14px;
+    padding: 25px 6px;
+    color:white;
+    font-weight: 500;
+  }
+  ul.nav.navbar-nav.navbar-right{
+  margin-top: 0px;
+  }
+  .navbar-default .navbar-nav > li > a{
+    color:white;
+    border:none;
+    background: none;
+    height: 75px;
+  }
+  .navbar-default .navbar-nav > li > a:hover{
+    color: black;
+    background-color:rgba(119,136,153,0.3);
+  } 
+}
+/* drop */
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: none;
+}
+
+.navbar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-nav > li:last-child > a {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.dropdown-menu {
+  padding: 0px 0; 
+  margin: 0 0 0; 
+  border: 0px solid transition !important;
+  border: 0px solid rgba(0,0,0,.15);  
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+
+}
+/*=-====Main Menu=====*/
+
+.navbar-default .navbar-toggle { 
+  border-color: #fff; 
+  margin-top: 18px;
+} /*Toggle Button*/
+
+.navbar-default .navbar-toggle .icon-bar { 
+  background-color: #fff 
+} /*Toggle Button*/
+
+/*==========Sub Menu=v==========*/
+.navbar-default .collapse ul > li:hover > a{
+  color: #ffb400
+}
+
+.navbar-default .collapse ul ul > li:hover > a, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+  border-left:4px solid #ffb400;
+  background: white;
+}
+
+.navbar-default .collapse ul ul ul > li:hover > a{
+  border-left:4px solid #ffb400; 
+  background-color: white;
+}
+
+.navbar-default .collapse ul ul,
+.navbar-default .collapse ul ul.dropdown-menu{
+  background:#e7e7e7;
+}
+
+.navbar-default .collapse ul ul ul, 
+.navbar-default .collapse ul ul ul.dropdown-menu{
+  background:#e7e7e7
+}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{
+  background: background-color:rgba(119,136,153,0.3);
+  border: 0 solid;
+  margin: 0;
+  padding: 0;
+  min-height:20px
+}
+
+@media only screen and (min-width: 767px) {
+.navbar-default .collapse ul li{
+  position:relative;
+}
+
+.navbar-default .collapse ul li:hover> ul{
+  display:block
+}
+
+.navbar-default .collapse ul ul{
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:180px;
+  display:none
+}
+
+/*******/
+.navbar-default .collapse ul ul li{
+  position:relative
+}
+
+.navbar-default .collapse ul ul li:hover> ul{
+  display:block
+}
+
+.navbar-default .collapse ul ul ul{
+  position:absolute;
+  top:0;
+  left:100%;
+  min-width:180px
+  ;display:none
+}
+
+/*******/
+.navbar-default .collapse ul ul ul li{
+  position:relative
+}
+}
+.dropdown-menu li a{
+  padding:  8px 20px;
+}
+/* end drop */
