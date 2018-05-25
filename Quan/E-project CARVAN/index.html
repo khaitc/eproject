@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Car-van </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="js/1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+ 	<link rel="stylesheet" href="css/index.css">
+</head>
+<body >
+    <nav class="navbar navbar-default navbar-fixed-top mainmenu" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header navbarheader">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo" class="img-responsive"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right dropdown">
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="brands-2.html" class="dropdown-toggle" data-toggle="dropdown">Brands</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Toyota</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Camry</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Lamborghini</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Lamborghini Huracan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Nissan</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Nissan GTR 2017</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Honda</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">Honda Civic 2018</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">BMW</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="product.html" title="">BMW Black Zero M</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="range-car-list.html">Ranger Of Cars</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Small Car</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Sedan</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">Van</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="range-car-list.html" class="dropdown-toggle" data-toggle="dropdown">JEEPs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Preo.html">PreOwned Cars</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>  
+    <!-- end menu -->
+    <!-- slide anh -->
+    <div class="container-fuid">
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item">
+                    <img  class="anhslide" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg" style="margin:auto">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <p><a class="btn btn-lg " href="#" role="button">More Information</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img  class="anhslide" data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/2.jpg"  style="margin:auto">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <p><a class="btn btn-lg " href="#" role="button">More Information</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <img class="anhslide" data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="images/3.jpg" style="margin:auto">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <p><a class="btn btn-lg " href="#" role="button">More Information</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+    <!-- end slide anh -->
+    <div class="container text-center">
+        <h1 class="favorTitle">Favourite Car</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc..</p>
+        <div class="featured-car-slider">
+            <div id="carouse2-example-gengeric" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-pad col-sm-12 col-md-6 col-lg-6">
+                                <img src="images/Slide picture/car-1.jpg" alt="car-1" class="img-responsive">
+                            </div>
+                            <div class="col-pad col-sm-12 col-md-6 col-lg-6">
+                                <div class="details">
+                                    <h3>Lamborghini</h3>
+                                    <ul>
+                                        <li>
+                                            <strong>Fuel: </strong> Gasoline
+                                        </li>
+                                        <li>
+                                            <strong>Transmission: </strong> Automatic
+                                        </li>
+                                        <li>
+                                            <strong>Mileage: </strong> 12505
+                                        </li>
+                                        <li>
+                                            <strong>Gear: </strong> 5
+                                        </li>
+                                        <li>
+                                            <strong>Year: </strong> 2015
+                                        </li>
+                                        <li>
+                                            <strong>Category: </strong>Sport Car
+                                        </li>
+                                    </ul>
+                                    <div class="price">
+                                        Price: $49.000
+                                    </div>
+                                    <a href="product.html" class="btn btn-submit">View details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-pad col-sm-12 col-md-6 col-lg-6">
+                                <img src="images/Slide picture/car-2.jpg" alt="car-4" class="img-responsive">
+                            </div>
+                            <div class="col-pad col-sm-12 col-md-6 col-lg-6">
+                                <div class="details">
+                                    <h3>Ferrari Red Car</h3>
+                                    <ul>
+                                        <li>
+                                            <strong>Fuel: </strong> Gasoline
+                                        </li>
+                                        <li>
+                                            <strong>Transmission: </strong> Automatic
+                                        </li>
+                                        <li>
+                                            <strong>Mileage: </strong> 12505
+                                        </li>
+                                        <li>
+                                            <strong>Gear: </strong> 5
+                                        </li>
+                                        <li>
+                                            <strong>Year: </strong> 2015
+                                        </li>
+                                        <li>
+                                            <strong>Category: </strong>Sport Car
+                                        </li>
+                                    </ul>
+                                    <div class="price">
+                                        Price: $49.000
+                                    </div>
+                                    <a href="product.html" class="btn btn-submit">View details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-pad col-sm-12 col-md-6 col-lg-6">
+                                <img src="images/Slide picture/car-4.jpg" alt="car-4" class="img-responsive">
+                            </div>
+                            <div class="col-pad col-sm-12 col-md-6 col-lg-6">
+                                <div class="details">
+                                    <h3>Volkswagen Scirocco 2016</h3>
+                                    <ul>
+                                        <li>
+                                            <strong>Fuel: </strong> Gasoline
+                                        </li>
+                                        <li>
+                                            <strong>Transmission: </strong> Automatic
+                                        </li>
+                                        <li>
+                                            <strong>Mileage: </strong> 12505
+                                        </li>
+                                        <li>
+                                            <strong>Gear: </strong> 5
+                                        </li>
+                                        <li>
+                                            <strong>Year: </strong> 2015
+                                        </li>
+                                        <li>
+                                            <strong>Category: </strong>Sport Car
+                                        </li>
+                                    </ul>
+                                    <div class="price">
+                                        Price: $49.000
+                                    </div>
+                                    <a href="product.html" class="btn btn-submit">View details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carouse2-example-gengeric" role="button" data-slide="prev">
+                        <span class="t-slder-l slider-mover-left" aria-hidden="true">
+                                    <i class="fa fa-angle-left"></i>
+                                    <span class="sr-only">Previous</span>
+                                </span>
+                    </a>
+                    <a class="right carousel-control" href="#carouse2-example-gengeric" role="button" data-slide="next">
+                        <span class="t-slder-l slider-mover-right" aria-hidden="true">
+                            <i class="fa fa-angle-right"></i>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </a>
+                </div>
+            <!-- end row -->
+            </div>
+        </div>
+    </div> 
+    <div class="container">
+        <div class="main-title text-center">
+            <h1>RECENT CARS</h1>
+            <p>Sed hendrerit quam sed ante euismod posu. Mauris ut elementum ante. Vestibuel suscipit convallis purus mattis magna sapien, euismod convallis sagittis quis euismod posu.</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="features-item clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-pad-2">
+                        <img src="images/Range of Cars/car-3.jpg" alt="car3">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 detail">
+                        <h4>
+                            <a href="product.html">Ferrari Red Car</a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, conse adipiscing elit. Maecenas mauris orci, pellentesque at vestibulum quis, porttitor.</p>
+                        <div class="bottom">
+                            <div class="price">
+                                <strong>Price</strong> $49.000
+                            </div>
+                            <div class="pull-right">
+                                <div class="btn-div">
+                                    <a href="product.html">
+                                        <span class="read-more">Ream More</span>
+                                        <span class="icon-arrow-right2">
+                                            <i class="fa  fa-angle-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="features-item clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-pad-2">
+                        <img src="images/Range of Cars/car-4.jpg" alt="car4">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 detail">
+                        <h4>
+                            <a href="product.html">BMW Black Zero M</a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, conse adipiscing elit. Maecenas mauris orci, pellentesque at vestibulum quis, porttitor.</p>
+                        <div class="bottom">
+                            <div class="price">
+                                <strong>Price</strong> $49.000
+                            </div>
+                            <div class="pull-right">
+                                <div class="btn-div">
+                                    <a href="product.html">
+                                        <span class="read-more">Ream More</span>
+                                        <span class="icon-arrow-right2">
+                                            <i class="fa  fa-angle-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="features-item clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-pad-2">
+                        <img src="images/Range of Cars/car-5.jpg" alt="car5">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 detail">
+                        <h4>
+                            <a href="product.html">Mc Laren 650s</a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, conse adipiscing elit. Maecenas mauris orci, pellentesque at vestibulum quis, porttitor.</p>
+                        <div class="bottom">
+                            <div class="price">
+                                <strong>Price</strong> $49.000
+                            </div>
+                            <div class="pull-right">
+                                <div class="btn-div">
+                                    <a href="product.html">
+                                        <span class="read-more">Ream More</span>
+                                        <span class="icon-arrow-right2">
+                                            <i class="fa  fa-angle-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="features-item clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-pad-2">
+                        <img src="images/Range of Cars/car-6.jpg" alt="car6">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 detail">
+                        <h4>
+                            <a href="product.html">Audi Q7</a>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, conse adipiscing elit. Maecenas mauris orci, pellentesque at vestibulum quis, porttitor.</p>
+                        <div class="bottom">
+                            <div class="price">
+                                <strong>Price</strong> $49.000
+                            </div>
+                            <div class="pull-right">
+                                <div class="btn-div">
+                                    <a href="product.html">
+                                        <span class="read-more">Ream More</span>
+                                        <span class="icon-arrow-right2">
+                                            <i class="fa  fa-angle-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end content -->
+    <div class="bando">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.783867244793!2d105.81713808378638!3d21.001299170307902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac84f942e613%3A0x9e625c766729230b!2sFafim+Cinema!5e0!3m2!1svi!2s!4v1524543182488" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div> <!-- end ban do -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- About us -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-item clearfix">
+                        <h2 class="title">Contact Us</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printing and typesetting
+                        </p>
+                        <ul class="personal-info">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                Address: 19, Nguyễn Trãi, Phường Khương Trung, Quận Thanh Xuân, Hà Nội
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                Email:<a href="mailto:khaitc.michn@gmail.com">info@carvan.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                Phone: <a href="tel:+55-417-634-7071">+84 XXX 812 912</a>
+                            </li>
+                             <li>
+                                <i class="fa fa-fax"></i>
+                                Fax: +84 4XX-634-7071
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end About us -->
+                <!-- Links -->
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                    <div class="footer-item clearfix">
+                        <h2 class="title">Links</h2>
+                        <ul class="links">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html">About Us</a>
+                            </li>
+                             <li>
+                                <a href="range-car-list.html">Car Listing</a>
+                            </li>
+                            <li>
+                                <a href="range-car-grid.html">Car Grid</a>
+                            </li>
+                             <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Car Details</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end Links -->
+                <!-- Tags -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item clearfix">
+                        <h2 class="title">Tags</h2>
+                        <div class="tags">
+                            <a href="#">Cars</a>
+                            <a href="#">Cars Dealer</a>
+                            <a href="#">Dealer</a>
+                            <a href="#">Auto Car</a>
+                            <a href="#">Automobile</a>
+                            <a href="#">Vehicles</a>
+                            <a href="#">Journey</a>
+                            <a href="#">Car Selling</a>
+                            <a href="#">Car Dealing</a>
+                            <a href="#">Car Website</a>
+                        </div>
+                    </div>
+                </div> <!-- end Tags -->
+                <!-- Recent Cars -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item recent-car clearfix">
+                        <h2 class="title">Recent Cars</h2>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="product.html">
+                                    <img class="media-object" src="images/footer-car-3.jpg" alt="recent-1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4>
+                                    <a href="product.html">Nissan Micra Gen5</a>
+                                </h4>
+                                <span>  Apr 25, 2018</span>
+                                <p>$36.000</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="product.html">
+                                    <img class="media-object" src="images/footer-car-2.jpg" alt="recent-2">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4>
+                                    <a href="product.html">Toyota Prius</a>
+                                </h4>
+                                <span>  Apr 25, 2018</span>
+                                <p>$28.490</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="product.html">
+                                    <img class="media-object" src="images/footer-car-1.jpg" alt="recent-3">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4>
+                                    <a href="product.html">Fiat Punto Red</a>
+                                </h4>
+                                <span>  Apr 25, 2018</span>
+                                <p>$49.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end Recent Cars -->
+            </div>
+        </div>
+        <hr>  <!-- end Footer --> 
+        <div class="copy-right">
+            <div class="container text-center">
+                <p>&copy;  2018 Designed and edited by CARVAN Team</p>
+            </div>
+        </div> 
+    </div>
+    
+</body>
+</html>
